@@ -44,7 +44,7 @@ To install the app locally:
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd dash-global-eq-displacement
+cd global-earthquake-displacement
 ```
 
 2. Install dependencies:
