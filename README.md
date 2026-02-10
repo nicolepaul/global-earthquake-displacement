@@ -10,7 +10,11 @@ This repository contains data, analysis code, and a dashboard app. The analysis 
 
 ### Data
 
-The **event-based impact data and corresponding covariates** are available at: [assets/data.csv](assets/data.csv).
+The **event-based impact data** is available at: [assets/data.csv](assets/data.csv).
+
+* The dwelling damage data is under the columns `damaged` and `destroyed`, whereas the population displacement data is under the columns `sheltered_peak` and `protracted`. The corresponding source and analysis logic of the impact data are described in the `narrative` column with links to the public sources.
+
+* The corresponding national and gridded covariates are denoted by columns in uppercase. The description and sources for the covariates are available at: [assets/drivers.csv](assets/drivers.csv).
 
 The **global probabilistic risk results** are available at: 
 
