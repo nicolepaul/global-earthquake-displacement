@@ -16,8 +16,7 @@ def header():
                 """
                 This dashboard visualizes newly assembled data on population displacement
                 after recent earthquakes around the world, as well as potential
-                displacement drivers such as housing damage.
-                Research is still in progress, and this dashboard is not yet intended for a general audience.
+                displacement drivers such as housing damage..
                 """
             ),
         ],

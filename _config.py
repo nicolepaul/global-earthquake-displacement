@@ -51,30 +51,30 @@ DEFAULT_TEXT = dbc.CardBody(
         html.H4("Data definitions"),
         html.Ul(
             [
-                html.Li(
-                    [
-                        html.B("Evacuated (peak): "),
-                        "This is the number of people who leave their habitual dwelling for any period of time, whether that is to stay with family/friends, sleep outdoors on their land, or to go to a collective shelter point. This data is rarely systematically captured, although some countries such as the Philippines regularly track displaced populations both in collective shelters and with host families.",
-                    ]
-                ),
+                # html.Li(
+                #     [
+                #         html.B("Evacuated (peak): "),
+                #         "This is the number of people who leave their habitual dwelling for any period of time, whether that is to stay with family/friends, sleep outdoors on their land, or to go to a collective shelter point. This data is rarely systematically captured, although some countries such as the Philippines regularly track displaced populations both in collective shelters and with host families.",
+                #     ]
+                # ),
                 html.Li(
                     [
                         html.B("Sheltered (peak): "),
-                        "This is the number of people that seek collective shelter, or that required tents or shelter kits in more rural areas. This peak headcount is usually during the first two weeks after the mainshock, but sometimes will be in the first month.",
+                        "This is the number of people that seek collective shelter, or that required tents or shelter kits in more rural areas. This peak headcount is usually during the first two weeks after the mainshock, but sometimes will be in the first month. For high-income countries like the United States and Japan, the peak value was usually in the first few days. However, the peak value in low- and middle-income countries tended to occur later.",
                     ]
                 ),
                 html.Li(
                     [
                         html.B("Protracted (6-month): "),
-                        "This is the number of people who had persistent sheltering or housing needs after the earthquake. Estimates near the six month mark were prioritized, typically representing the population still in collective shelters or who were receiving some form of temporary or transitional housing from the government.",
+                        "This is the number of people who had persistent sheltering or housing needs after the earthquake. Estimates near the six month mark were prioritized, typically representing the population still in collective shelters or who were receiving some form of temporary or transitional housing from the government. Households receiving assistance are not included, as they often continued to occupy their homes. Additionally, households who independently found their own forms of temporary housing without humanitarian or government support are not included. ",
                     ]
                 ),
-                html.Li(
-                    [
-                        html.B("Assisted: "),
-                        "This is the number of people who received some form sheltering or housing assistance after the earthquake. Forms of assistance could include temporary or transitional housing, cash assistance for repairs or rebuilding, rental voucher, or replacement housing. Often, governments distribute this form of assistance based on housing damage, resulting in a high correlation between the reported damage and the reported number of people receiving assistance. Monetary assistance is the most prevalent form, but amounts received are not necessarily sufficient to cover costs to repair or rebuild.",
-                    ]
-                ),
+                # html.Li(
+                #     [
+                #         html.B("Assisted: "),
+                #         "This is the number of people who received some form sheltering or housing assistance after the earthquake. Forms of assistance could include temporary or transitional housing, cash assistance for repairs or rebuilding, rental voucher, or replacement housing. Often, governments distribute this form of assistance based on housing damage, resulting in a high correlation between the reported damage and the reported number of people receiving assistance. Monetary assistance is the most prevalent form, but amounts received are not necessarily sufficient to cover costs to repair or rebuild.",
+                #     ]
+                # ),
             ]
         ),
     ]

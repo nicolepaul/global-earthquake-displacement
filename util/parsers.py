@@ -28,10 +28,10 @@ def get_data():
         "(damaged+destroyed)*ahhs-fatalities": "Residents of damaged + destroyed dwellings",
     }
     metrics = {
-        "evacuated": "Evacuated (peak)",
+        # "evacuated": "Evacuated (peak)",
         "sheltered_peak": "Sheltered (peak)",
         "protracted": "Protracted (~6mo)",
-        "assisted": "Assisted",
+        # "assisted": "Assisted",
     }
 
     categories = {"region": "Geographical region", "income": "Country income level"}
