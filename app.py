@@ -1,3 +1,5 @@
+import os
+
 import dash
 from dash_bootstrap_templates import load_figure_template
 import dash_bootstrap_components as dbc
@@ -36,4 +38,8 @@ app = create_app()
 server = app.server
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(
+        debug=os.environ.get("DASH_DEBUG") == "1",
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 8050)),
+    )
