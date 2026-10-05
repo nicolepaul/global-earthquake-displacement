@@ -22,6 +22,8 @@ The **global probabilistic risk results** are based on GEM's Global Seismic Risk
 
 * Subnational ([assets/results_subnational.csv](assets/results_subnational.csv))
 
+Empty values for the results indicate that no damaging earthquakes were realized in the analysis timeline for that area.
+
 ### Analysis
 
 To replicate the analysis, it is recommended to run the dashboard locally.
