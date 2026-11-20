@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Paul
+    given-names: Nicole
+    orcid: https://orcid.org/0000-0002-1678-4204
+  - family-names: Silva
+    given-names: Vitor
+    orcid: https://orcid.org/0000-0003-4408-3883
+  - family-names: Baker
+    given-names: Jack
+    orcid: https://orcid.org/0000-0003-2744-9599
+  - family-names: Peter
+    given-names: Magdalena
+    orcid: https://orcid.org/0009-0004-5142-1988
+  - family-names: Oakes
+    given-names: Robert
+    orcid: https://orcid.org/0000-0002-9071-4247
+  - family-names: Ponserre
+    given-names: Sylvain
+    orcid: https://orcid.org/0000-0003-1649-6082
+  - family-names: Galasso
+    given-names: Carmine
+    orcid: https://orcid.org/0000-0001-5445-4911
+title: "Predicting population displacement due to earthquakes globally: Companion data and code"
+version: v2026.0.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24399461
+date-released: 2026-11-20
