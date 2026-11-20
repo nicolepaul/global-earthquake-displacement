@@ -4,6 +4,12 @@ This repository contains code to support a manuscript that is not yet published.
 
 > Nicole Paul, Vitor Silva, Jack Baker, Magdalena Peter, Robert Oakes, Sylvain Ponserre, and Carmine Galasso. Predicting population displacement due to earthquakes globally.
 
+To cite this repository, including the data and code please use:
+
+> Nicole Paul, Vitor Silva, Jack Baker, Magdalena Peter, Robert Oakes, Sylvain Ponserre, and Carmine Galasso. Predicting Population Displacement Due to Earthquakes Globally: Companion Data and Code. V. v2026.0.0. Zenodo, released November 20, 2026. https://doi.org/10.5281/zenodo.24399461.
+
+[![DOI](https://zenodo.org/badge/1067973930.svg)](https://doi.org/10.5281/zenodo.24399460)
+
 ## Overview
 
 This repository contains data, analysis code, and a dashboard app. The analysis code is embedded within the dashboard app
